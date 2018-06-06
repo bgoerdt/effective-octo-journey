@@ -99,7 +99,7 @@ const getTrelloCardsFromCsv = async () => {
             cards.push(mapBlipToTrelloCards(blip));
         })
         .on("end", () => {
-            resolve(cards);
+            resolve(cards.slice(1));
         });
     }); 
 };

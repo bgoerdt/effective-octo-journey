@@ -1,8 +1,9 @@
 
 ## Keys
-Trello API Key: 3914190ac44fdf686a0fd364ddcba980
+Login to Trello and get your API key from https://trello.com/app-key/
 
-Token: 1ecc41de08410d03b93026cf96ae6fc347ea019eafd8ccda69990c42689002b1
+In order to get Trello token:
+https://trello.com/1/authorize?expiration=1day&name=MyPersonalToken&scope=read,write&response_type=token&key={API_KEY}
 
 ## IDs
 
